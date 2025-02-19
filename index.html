@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+      <title>Dicee</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Shafarik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="inputs">
+      <input type="text" placeholder="Player1 name">
+      <input type="text" placeholder="Player2 name">
+      <button class="setButton" onclick="getValue()">Set</button>
+    </div>
+      <div class="container">
+        <h1>Refresh Me</h1>
+        <p class="tie"> HA HA it is a tie </p>
+
+        <div class="dice">
+          <p id="p1">Player 1</p>
+          <img class="img1" src="/images/dice1.png"/>
+        </div>
+
+        <div class="dice">
+          <p id="p2">Player 2</p>
+          <img class="img2" src="/images/dice1.png" />
+        </div>
+      </div>
+      <div class="rolldice">
+      <button class="roll" onclick="rollDice()">Roll</button>
+    </div>
+      <footer>LETS SEE WHO IS BETTER</footer>
+      <script src="index.js"></script>
+    </body>
+  </html>
